@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.puzzle {
+  position: relative;
+  padding: 0;
+}
+.box {
+  position: absolute;
+  list-style: none;
+  background: black;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+}
